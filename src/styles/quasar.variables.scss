@@ -1,0 +1,40 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+@import '~quasar-variables-styl';
+
+//* BRAND COLORS
+$primary   : #027BE3;
+$secondary : #26A69A;
+$accent    : #9C27B0;
+
+//* MONO COLORS
+$mono-1    : hsl(214, 16%, 12%);
+$mono-2    : hsl(214, 16%, 17%);
+$mono-3    : hsl(214, 16%, 22%);
+$mono-4    : hsl(214, 16%, 26%);
+$mono-5    : hsl(214, 16%, 30%);
+$dark      : $mono-2;
+
+//* ------------------------------------------------------- *//
+//* STATE COLOR VARIABLES --------------------------------- *//
+$dark-amount      : 42%;
+$dark-desaturate  : 24%;
+$darker-amount    : 44%;
+$darker-desaturate: 42%;
+
+//* POSITIVE COLORS
+$positive       : #18F48E;
+$positive-dark  : #1F4239;
+$positive-darker: #17312A;
+
+//* NEGATIVE COLORS
+$negative       : #FF4D45;
+$negative-dark  : #41222F;
+$negative-darker: #301923;
+
+//* COLORS
+$info           : #31CCEC;
+$warning        : #F2C037;
+
+
+

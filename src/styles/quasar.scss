@@ -1,0 +1,50 @@
+@import './quasar.variables.scss';
+@import '~quasar-styl';
+// @import '~quasar-addon-styl';
+
+//* BG Mono Colors
+.bg-mono-1 { background: $mono-1 !important; }
+.bg-mono-2 { background: $mono-2 !important; }
+.bg-mono-3 { background: $mono-3 !important; }
+.bg-mono-4 { background: $mono-4 !important; }
+.bg-mono-5 { background: $mono-5 !important; }
+
+//* Positive Utility Classes
+.bg-positive-dark     { background: $positive-dark !important; }
+.text-positive-dark   { color     : $positive-dark !important; }
+.bg-positive-darker   { background: $positive-darker !important; }
+.text-positive-darker { color     : $positive-darker !important; }
+
+//* Negative Utility Classes
+.bg-negative-dark     { background: $negative-dark !important; }
+.text-positive-dark   { color     : $negative-dark !important; }
+.bg-negative-darker   { background: $negative-darker !important; }
+.text-positive-darker { color     : $negative-darker !important; }
+
+
+//* Overwrite App BG
+body.body--dark { background: $mono-2; }
+
+
+//* List/Table Bottom Border Colors
+.q-table--dark .q-table__bottom,
+.q-table--dark thead,
+.q-table--dark tr,
+.q-table--dark th,
+.q-table--dark td {
+  &.--positive td { border-color: $positive !important; }
+  &.--negative td { border-color: $negative !important; }
+}
+.q-item--dark {
+  border-top: none !important;
+  &:not(:last-of-type) {
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+    &.--positive { border-color: $positive !important; }
+    &.--negative { border-color: $negative !important; }
+  }
+}
+
+//* Overwrite Disabled Opacity
+.q-btn.disabled {
+  opacity: 0.4 !important;
+}
