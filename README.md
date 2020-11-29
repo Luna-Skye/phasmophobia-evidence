@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f47bfc53-b2ff-447f-a7fe-e09a1fa6b108/deploy-status)](https://app.netlify.com/sites/phasmophobia-evidence/deploys)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Just simple web-app to help with tracking and understanding Phasmophobia Ghost Evidence.
+Just a simple web-app to help with tracking and understanding Phasmophobia Ghost Evidence.
 
 ### [View Latest Production Deploy](https://phasmophobia.sepshun.io/)
 ### [Quick Survey about Future Updates](https://forms.gle/kdXw4yd1g4GR31cR9)
