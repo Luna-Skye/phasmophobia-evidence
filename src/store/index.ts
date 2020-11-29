@@ -26,7 +26,7 @@ export interface GhostType {
 export default new Vuex.Store({
   state: {
     appInfo: {
-      version: '1.0.0',
+      version: '1.0.1',
       repo: 'https://github.com/Sepshun/phasmophobia-evidence'
     },
 
