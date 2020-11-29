@@ -35,8 +35,9 @@
             :key="`GhostList_Ghosts_${g}_Evidence_${e}`"
             class="text-center"
             :class="{
-              'text-positive': ghost.state !== 0 && $store.getters.evidence.some(ev => ev.state === 1 && ev.name === evidence.name),
-              'text-negative': ghost.state !== 0 && $store.getters.evidence.some(ev => ev.state === 2 && ev.name === evidence.name)
+              'text-positive': ghost.state === 1 && $store.getters.evidence.some(ev => ev.state === 1 && ev.name === evidence.name),
+              'text-negative': ghost.state === 2 && $store.getters.evidence.some(ev => ev.state === 2 && ev.name === evidence.name),
+              'text-grey': ghost.state !== 1 && $store.getters.evidence.some(ev => ev.state === 1)
             }"
           >
             {{ ghost.evidence.includes(evidence.name) ? evidence.name : '' }}
